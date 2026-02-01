@@ -1,5 +1,20 @@
 # End-to-End Data Science Pipeline: Analyzing Delhi's Air Quality Index (AQI)
 
+---
+
+### Data Source
+
+**Original Dataset:** [Delhi Pollution AQI Dataset](https://www.kaggle.com/datasets/vishardmehta/delhi-pollution-aqi-dataset) by [Vishard Mehta](https://www.kaggle.com/vishardmehta) on Kaggle
+
+[![Kaggle Dataset](https://img.shields.io/badge/Kaggle-Dataset-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/vishardmehta/delhi-pollution-aqi-dataset)
+
+- **Period**: 2020-2024
+- **Frequency**: Hourly measurements
+- **Records**: 35,000+ observations
+- **License**: [Check Kaggle Dataset License](https://www.kaggle.com/datasets/vishardmehta/delhi-pollution-aqi-dataset)
+
+---
+
 ## Project Overview
 Delhi is known for having one of the most complex air pollution profiles in the world, often driven by seasonal factors, traffic, and industrial activities. This project focuses on analyzing historical Air Quality Index (AQI) data retrieved from a database. The goal is to process raw data into actionable insights and potentially build a predictive model for future air quality trends.
 
@@ -43,7 +58,3 @@ Transforming raw data into meaningful features for modeling:
 ## 7. Evaluation
 Measuring the success of the analysis/model:
 *   **Metrics:** Using RMSE (Root Mean Squared Error) or MAE (Mean Absolute Error) to quantify the deviation between predicted and actual AQI values.
-
----
-
-**The following code demonstrates the technical implementation of this pipeline:**
